@@ -1,4 +1,4 @@
-# Variables
+# VARIABLES
 
 st_cnt = 1000
 print(st_cnt)
@@ -18,3 +18,37 @@ print(len(course))
 #STRINGS 
 
 print(course[0:3])
+
+#ESCAPE SEQ
+#\"
+#\'
+#\\
+#\n
+
+
+#FORMAT STRINGS
+f= 'Hello'
+l= "India"
+
+print(f+l)
+
+full= f"{f}{l}"
+print(full)
+
+#STRING FUNCTIONS
+a= "PRANAV"
+print(a.upper())
+a.title()
+
+#TO REMOVE WHITESPACES
+c= "  Hii"
+print(c.strip())
+
+print(a.find("PR")) #returns index
+print("PR" in a) #returns boolean
+
+#NUMBERS
+
+n= 2+ 3j #Complex number
+
+n=3.7
