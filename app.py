@@ -1,3 +1,5 @@
+import math
+
 # VARIABLES
 
 st_cnt = 1000
@@ -52,3 +54,7 @@ print("PR" in a) #returns boolean
 n= 2+ 3j #Complex number
 
 n=3.7
+a= math.cos(0)
+print(a)
+
+
