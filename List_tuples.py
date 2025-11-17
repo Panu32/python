@@ -26,3 +26,11 @@ print(tup.count(4))
 print(4 in tup)
 
 
+#TAKING INPUT FROM USER
+lnew= []
+for i in range(5):
+    a= input("Enter Values")
+    lnew.append(a)
+
+print(lnew)
+
